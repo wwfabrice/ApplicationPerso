@@ -14,7 +14,19 @@ repositories {
 }
 
 dependencies {
+	// Web
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// View
+	implementation 'org.springframework.boot:spring-boot-starter-freemarker'
+
+	// Database
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	runtimeOnly 'mysql:mysql-connector-java'
+
+	// Security
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	
+	//Test
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
